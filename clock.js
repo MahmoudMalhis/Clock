@@ -18,7 +18,6 @@ function time() {
   seconds = seconds < 10 ? "0" + seconds : seconds;
 
   let timeNaw = `${hour}:${minutes}:${seconds} ${session}`;
-  console.log(timeNaw);
   clock.innerHTML = timeNaw;
   setInterval(time, 1000);
 }
