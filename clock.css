@@ -12,3 +12,9 @@ body {
   font-size: 80px;
   color: aqua;
 }
+
+@media (max-width: 767px) {
+  .clock {
+  font-size: 45px;
+}
+}
